@@ -7,7 +7,7 @@
     "tailwindcss": "^3.4.17"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "dev":"vite"
+    "dev": "vite",
+    "build": "vite build"
   }
 }
